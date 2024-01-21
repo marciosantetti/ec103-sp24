@@ -31,3 +31,20 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
   - Slides: [`html`]() | [`pdf`]()
 
 <br>
+
+
+
+## Assignments
+
+### Problem Sets
+
+<br>
+
+
+<br>
+
+### Mini Projects
+
+<br>
+
+  - [`Mini Project 1`]() (due 02/21, before class)
