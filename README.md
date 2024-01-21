@@ -1,10 +1,14 @@
 # EC 103&mdash;004: Introduction to Macroeconomics, Spring 2024
 
+<br>
+
 Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 *Spring 2024 - Dr. Marcio Santetti - [Economics Department](https://www.skidmore.edu/economics/), [Skidmore College](https://www.skidmore.edu/)*
 
 
 ## Course Syllabus
+
+<br>
 
   - [EC 103&mdash;004 Syllabus]()
 
