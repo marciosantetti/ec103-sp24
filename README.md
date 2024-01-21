@@ -6,7 +6,7 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 
 ## Course Syllabus
 
-  - [`EC 103&mdash;004 Syllabus`]()
+  - [EC 103&mdash;004 Syllabus]()
 
 
 ## Lecture notes/slides
