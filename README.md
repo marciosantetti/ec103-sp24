@@ -40,6 +40,7 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+  - `Problem Set 1` (coming soon)
 
 <br>
 
