@@ -11,7 +11,7 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 
 <br>
 
-  - [EC 103&mdash;004 Syllabus]()
+  - [EC 103&mdash;004 Syllabus](https://raw.githack.com/marciosantetti/ec103-sp24/main/syllabus/ec103-syllabus-sp24.pdf)
 
 
 <br>
@@ -26,9 +26,9 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
-**Lecture 1: Basic concepts**
+**001: Basic concepts**
 
-  - Slides: [`html`]() | [`pdf`]()
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/001-basic-concepts/001-basic-concepts.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/001-basic-concepts/001-basic-concepts.pdf)
 
 <br>
 
@@ -48,4 +48,4 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
-  - [`Mini Project 1`]() (due 02/21, before class)
+  - [`Mini Project 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp1-sp24.pdf) (due 02/21, before class)
