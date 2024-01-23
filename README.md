@@ -29,7 +29,7 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 **001: Basic concepts**
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/001-basic-concepts/001-basic-concepts.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/001-basic-concepts/001-basic-concepts.pdf)
-  - [`Video lecture`]()
+  - [`Video lecture`](https://youtu.be/wfetuuCIa28)
 
 <br>
 
@@ -50,4 +50,4 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 <br>
 
   - [`Mini Project 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp1-sp24.pdf) (due 02/21, before class)
-      - [`Project overview`]()
+      - [`Project overview`](https://youtu.be/8qb5Q0VXXeI)
