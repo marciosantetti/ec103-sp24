@@ -1,0 +1,78 @@
+---
+title: ".b[GDP discussion]"
+subtitle: ".b[.hi[EC 103--003]]"
+author: "Marcio Santetti"
+date: "Spring 2023"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+p_load(broom, latex2exp, ggplot2, ggthemes, ggforce, viridis, dplyr, magrittr, knitr, parallel, xaringanExtra, tidyverse, sjPlot, showtext, mathjaxr, ggforce, furrr, kableExtra, wooldridge, hrbrthemes, scales, ggeasy, patchwork)
+
+
+
+
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  warning = F,
+  message = F,
+  dpi=300
+)
+
+theme_set(theme_ipsum_rc())
+
+```
+
+
+
+# Motivation
+
+
+
+---
+
+# Proposed discussion
+
+The last two weeks were dedicated to the main measure of economic size and performance, namely the .hi[Gross Domestic Product] (GDP).
+
+--
+
+By now, you are well aware of what it .hi-orange[includes].
+
+--
+
+  - But what about what it .hi[does not include]?
+  - Could we have a .hi-orange[better] measure of economic size and performance?
+
+--
+
+
+1. *Discuss* among yourselves, *brainstorm* ideas on a .b[better/ideal] measure to capture an economy's size and performance.
+
+2. What would be the .b[components] of this ideal measure?
+
+3. The last .b[20] minutes of class will be dedicated to your arguments .b[in favor] of this measure. 
+
+--
+
+<br>
+
+This activity is the *first problem* in **Problem Set 1**, worth *20* points.
+
+---
+exclude: true
