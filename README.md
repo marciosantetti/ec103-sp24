@@ -33,7 +33,11 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**002: The macroeconomic perspective**
 
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/002-macro-perspective/002-macro-perspective.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/002-macro-perspective/002-macro-perspective.pdf)
+
+<br>
 
 ## Assignments
 
