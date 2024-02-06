@@ -1,8 +1,8 @@
 ---
 title: ".b[GDP discussion]"
-subtitle: ".b[.hi[EC 103--003]]"
-author: "Marcio Santetti"
-date: "Spring 2023"
+subtitle: ".b[.hi[EC 103--004]]"
+author: "Prof. Santetti"
+date: "Spring 2024"
 output:
   xaringan::moon_reader:
     css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
