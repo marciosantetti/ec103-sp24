@@ -39,6 +39,14 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**003: GDP: Shapes and forms**
+
+   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/002-macro-perspective/003-gdp.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/002-macro-perspective/003-gdp.pdf)
+
+
+
+<br>
+
 ## Assignments
 
 ### Problem Sets
