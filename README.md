@@ -16,6 +16,14 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 
 <br>
 
+## Important dates
+
+<br>
+
+- **02/28: Mini-test 1**
+
+<br>
+
 ## Lecture notes/slides
 
 <br>
