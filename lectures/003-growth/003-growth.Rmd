@@ -1,0 +1,287 @@
+---
+title: ".b[Economic growth, pt. 1]"
+subtitle: ".b[.hi[EC 103--004]]"
+author: "Prof. Santetti"
+date: "Spring 2024"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+p_load(broom, latex2exp, ggplot2, ggthemes, ggforce, viridis, dplyr, magrittr, knitr, parallel, xaringanExtra, tidyverse, sjPlot, showtext, mathjaxr, ggforce, furrr, kableExtra, wooldridge, hrbrthemes, scales, ggeasy, patchwork,
+       readxl, MetBrewer)
+
+
+
+
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  warning = F,
+  message = F,
+  dpi=300
+)
+
+theme_set(theme_ipsum_rc())
+
+```
+
+
+
+# Motivation
+
+
+
+---
+
+# Housekeeping
+
+ .b[Required readings]:
+ 
+ <br>
+
+  * [`OpenStax, ch. 7`](https://openstax.org/books/principles-macroeconomics-3e/pages/7-introduction-to-economic-growth).
+
+
+<br>
+
+.b[Required listening]:
+
+  * [`Planet Money podcast: Booms, Busts & Us`](https://www.npr.org/2022/07/27/1114130282/planet-money-summer-school-3-booms-busts-us)
+
+---
+layout: false
+class: inverse, middle
+
+# Key macroeconomic problems
+
+
+---
+
+# Key macroeconomic problems
+
+Macroeconomic problems and concerns are diverse, but may be summmarized by .hi[three] major issues:
+
+  1. .hi[Output growth];
+  
+  2. .hi[Unemployment];
+  
+  3. .hi[Inflation].
+  
+--
+
+<br>
+
+Every economic policy maker will state that their goals are .hi[high output growth], .hi-orange[low unemployment], and .hi[low inflation] (or stable prices).
+
+--
+
+<br>
+
+.right[...But are these *feasible* altogether?]
+
+
+---
+
+# Key macroeconomic problems
+
+
+On average, economies tend to .hi[rise] over time.
+
+--
+
+However, this process has its short-run  *ups* and *downs*..smallest[.footnote[Picture taken from Case, Fair, and Oster (2012).]]
+
+--
+
+.center[
+<img src="bc.png", width = "50%">
+]
+
+
+
+---
+
+# Key macroeconomic problems
+
+.pull-left[ <br>
+<img src="bc.png", width = "90%">
+]
+
+.small[.pull-right[
+* These periods of *ups* and *downs* experienced by a national economy are known as .hi[business cycles.]
+
+* The highest point of the business cycle is known as the .hi-orange[peak].
+
+* The lowest, the .hi[trough].
+
+* An economic .hi-orange[expansion] is the period from a *trough* to a *peak*.
+
+* And from *peak* to *trough* we have economic .hi[recessions].
+
+* Most business cycles are not .hi-orange[symmetrical].
+]]
+
+
+---
+
+# Key macroeconomic problems
+
+<br><br><br>
+
+[`US National Bureau of Economic Research (NBER) business cycle information`](https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions)
+
+
+---
+
+# Key macroeconomic problems
+
+<br><br><br>
+
+Over the long-run trajectory of economic growth, business cycles produce different .hi[unemployment] and .hi-orange[inflationary] contexts.
+
+--
+
+<br>
+
+All of these issues will be further investigated in the *upcoming weeks*.
+
+
+---
+
+# Key macroeconomic problems
+
+While possible explanations for macroeconomic .hi[ups and downs] will be explored in the next lectures, we can say that there will always be .hi-orange[diverse] views on its *causes* and *consequences.*
+
+--
+
+However, some .hi-orange[indicators] may be used as .hi[signs] indicating *when* recessions may occur.
+
+--
+
+<br>
+
+A few examples:
+
+  1. Manufacturers' new orders for consumer goods and materials;
+  
+  2. [`Index of consumer expectations`](https://www.conference-board.org/topics/consumer-confidence);
+  
+  3. Stock prices;
+  
+  4. [`Weekly unemployment insurance initial claims`](https://fred.stlouisfed.org/series/CCSA).
+
+
+---
+layout: false
+class: inverse, middle
+
+# A recent phenomenon
+
+
+---
+
+# Growth: A recent phenomenon
+
+
+```{r, echo = FALSE, message = FALSE, dev = "svg", fig.height = 8}
+
+dat <- read_xlsx("maddison.xlsx", sheet = 3)
+
+dat_sample <- dat %>% 
+  filter(country %in% c("United Kingdom", "United States", "Republic of Korea", "China")) %>% 
+  filter(year >= 1700)
+
+dat_sample %>% 
+  ggplot(aes(x = year, y = gdppc, color = country)) +
+  geom_line(size = 0.8) +
+  scale_y_continuous(labels=scales::dollar_format()) +
+  scale_color_met_d("Homer2") +
+  labs(x = "", y = "GDP per capita", 
+       title = "Gross domestic product per capita, selected countries (1700—2018)",
+       caption = "Source: The Maddison Project.") +
+  easy_legend_at("bottom") +
+  easy_remove_legend_title() +
+  easy_plot_legend_size(13) +
+  easy_y_axis_title_size(13) +
+  easy_plot_caption_size(14)
+```
+
+
+---
+
+# Growth: A recent phenomenon
+
+Measuring .hi-orange[GDP *per capita*] (i.e., *GDP/total population*) is a valid (but rough) measure of a nation's overall standard of living, as it measures how much output each individual would receive in case total output were evenly divided across society members.
+
+--
+
+If, instead, we turn our attention to economic growth, the concept of .hi[output per worker] seems more appealing.
+
+--
+
+<br>
+
+.hi-orange[Output per worker] measures how much output each worker, on average, is producing.
+
+  - It is .hi[not] the same as output *per capita*, since not everyone in the population *formally* works.
+  
+  - It can also be called .hi[labor productivity].
+  
+
+---
+
+# Growth: A recent phenomenon
+
+```{r, echo = FALSE, message = FALSE, dev = "svg", fig.height = 8}
+
+dat2 <- read_csv("ted-sample.csv")
+
+
+
+dat2 %>% 
+  ggplot(aes(x = year, y = lp, color = country)) +
+  geom_line(size = 0.8) +
+  geom_point() +
+  scale_y_continuous(labels=scales::dollar_format()) +
+  scale_color_met_d("Homer2") +
+  labs(x = "", y = "Output per worker (2021 US$ PPP)", 
+       title = "Output per worker, selected countries (1950—2022)",
+       caption = "Source: Total Economy Database.") +
+  easy_legend_at("bottom") +
+  easy_remove_legend_title() +
+  easy_plot_legend_size(13) +
+  easy_y_axis_title_size(13) +
+  easy_plot_caption_size(14)
+```
+
+
+---
+
+# Growth: A recent phenomenon
+
+<br><br><br>
+
+What *drives* this increase in labor productivity?
+
+---
+layout: false
+class: inverse, middle
+
+# Next time: More on labor productivity; Computing growth
+
+---
+exclude: true

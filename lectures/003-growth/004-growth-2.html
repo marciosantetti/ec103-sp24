@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>.b[Economic growth, pt. 2]</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marcio Santetti" />
+    <script src="004-growth-2_files/header-attrs/header-attrs.js"></script>
+    <link href="004-growth-2_files/remark-css/default.css" rel="stylesheet" />
+    <link href="004-growth-2_files/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="004-growth-2_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="skid-css.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# .b[Economic growth, pt. 2]
+]
+.subtitle[
+## .b[.hi[EC 103–004]]
+]
+.author[
+### Marcio Santetti
+]
+.date[
+### Spring 2024
+]
+
+---
+
+class: inverse, middle
+
+
+
+
+
+# Motivation
+
+
+
+---
+
+# Housekeeping
+
+.b[Required readings]:
+ 
+ &lt;br&gt;
+
+  * [`OpenStax, ch. 7`](https://openstax.org/books/principles-macroeconomics-3e/pages/7-introduction-to-economic-growth)
+  
+
+&lt;br&gt;
+
+
+.b[Required listening]:
+ 
+ &lt;br&gt; 
+  
+  * [`FRED's Economic Lowdown podcast series: Economic growth`](https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-15-economic-growth)
+  
+  * [`Planet Money podcast: Productivity &amp; Getting Lit`](https://www.npr.org/2022/08/31/1120364348/planet-money-summer-school-8-productivity-getting-lit)
+  
+---
+
+# A long-run perspective
+
+.hi[Business cycles] reflect the *short-run* behavior of economic growth.
+
+--
+
+When turning our attention to *long-run* periods, we approach growth as a .hi-orange[secular] (and usually *upward*) trend.
+
+--
+
+&lt;br&gt;
+
+Over time, economies tend to produce .hi[more] goods and services from their *existing* production processes and resources.
+
+
+
+--
+
+&lt;br&gt;
+
+[`World Real GDP over time`](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD)
+
+---
+
+# A long-run perspective
+
+A useful concept when studying growth is .hi[potential] output (i.e., potential GDP).
+
+--
+
+&gt; An economy's .hi-orange[potential output] is the *highest* amount of output it can produce from its existing productive and natural capacities.
+
+--
+
+&lt;br&gt;
+
+Potential output is, then, a .hi[barrier] beyond which an economy cannot expand without either *increasing available factors of production*
+or *increasing productivity*.
+
+--
+
+&lt;br&gt;
+
+[`Data on US potential GDP`](https://fred.stlouisfed.org/series/GDPPOT)
+
+---
+
+layout: false
+class: inverse, middle
+
+# How growth happens
+
+---
+
+# How growth happens
+
+Recalling:
+
+  - A nation's potential output .hi[cannot] increase without it either using more *factors of production* and/or *increasing its productivity*.
+  
+--
+
+&lt;br&gt;
+
+What are .hi-orange[factors of production]?
+
+  - *Land*;
+  - *Labor*;
+  - *Capital* (human and physical);
+  - *Energy.*
+  
+---
+
+# How growth happens
+
+One major .hi[issue] with an economy (indefinitely) utilizing more factors of production is there is a .hi-orange[limit] to their use.
+
+--
+
+&lt;br&gt;
+
+Given that, existing factors need to be made .hi[more productive].
+  
+  
+  
+--
+
+&lt;br&gt;
+
+In other words, an economy needs to generate .hi-orange[more] output with either the *same* or *less* input use.
+
+---
+
+# How growth happens
+
+Economic growth is more sustainable when there are conditions for .hi[labor productivity] to increase.
+
+--
+
+[`Adam Smith`](https://en.wikipedia.org/wiki/Adam_Smith) (1723&amp;mdash;1790) recognized early on that an economy organized through .hi-orange[markets] could allow for:
+
+  1. Workers' .hi[specialization] (with individuals dedicated to certain aspects/stages of production);
+  
+  2. .hi-orange[Division of labor] (splitting the production processes into smaller tasks).
+  
+--
+
+&lt;br&gt;
+
+In a *market economy*, the several different markets are interdependent, which allows individuals to take advantage of the aspects above and trade for all their needs.
+
+--
+
+&lt;br&gt;
+
+As a consequence, the economy's .hi-orange[productivity] and .hi[standards of living] tend to increase.
+
+
+---
+
+layout: false
+class: inverse, middle
+
+# Growth in numbers
+
+
+---
+
+# Growth in numbers
+
+.smaller[Starting from:]
+
+&lt;img src="004-growth-2_files/figure-html/unnamed-chunk-1-1.svg" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Growth in numbers
+
+.pull-left[
+&lt;img src="004-growth-2_files/figure-html/unnamed-chunk-2-1.svg" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+Looking at this measure in .hi[levels] shows the overall long-run process of economic growth.
+
+But if we would like to know what was the .hi-orange[growth rate] over time, we need to compute these rates from the data in levels.
+
+.smaller[
+$$
+`\begin{aligned}
+\text{Growth rate (%)} = \dfrac{\text{Final Period - Initial Period}}{\text{Initial Period}} \ \times 100
+\end{aligned}`
+$$
+]]
+
+---
+
+# Growth in numbers
+
+.smaller[Then, from the first chart, we can calculate the .hi-orange[quarter-to-quarter growth rate] in GDP per capita:]
+
+&lt;img src="004-growth-2_files/figure-html/unnamed-chunk-3-1.svg" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Growth in numbers
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+Let us .hi[practice] this procedure using some real GDP annual data.
+
+---
+layout: false
+class: inverse, middle
+
+# Is growth good?
+
+
+---
+
+# Is growth good?
+
+The general view among economists is that growth .hi[increases] our incomes, and thus .hi[improves] our standards of living.
+
+--
+
+&lt;br&gt;
+
+This statement is different from the idea of supporting .hi-orange[unlimited growth].
+
+--
+
+&lt;br&gt;
+
+Applying .b[economic reasoning] to this issue, there are several .hi[costs] associated with economic growth regimes.
+
+
+---
+
+# Is growth good?
+
+.center[
+&lt;img src="emish.png",  width="1050" height="525"&gt;
+]
+
+
+---
+
+# Is growth good?
+
+.center[
+&lt;img src="profits.png",  width="600" height="515"&gt;
+]
+
+
+---
+layout: false
+class: inverse, middle
+
+# Next time: Unemployment
+
+---
+exclude: true
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
