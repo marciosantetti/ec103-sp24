@@ -1,7 +1,7 @@
 ---
 title: ".b[Economic growth, pt. 2]"
 subtitle: ".b[.hi[EC 103--004]]"
-author: "Marcio Santetti"
+author: "Prof. Santetti"
 date: "Spring 2024"
 output:
   xaringan::moon_reader:
@@ -177,7 +177,7 @@ Economic growth is more sustainable when there are conditions for .hi[labor prod
 
 <br>
 
-In a *market economy*, the several different markets are interdependent, which allows individuals to take advantage of the aspects above and trade for all their needs.
+In a *market economy*, the several different markets are .hi[interdependent], which allows individuals to take advantage of the aspects above and trade for all their needs.
 
 --
 
