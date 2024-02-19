@@ -1,0 +1,102 @@
+---
+title: ".hi[EC 103--004]"
+subtitle: ".b[Problem Set 2]"
+author: ".b[Prof. Santetti] <br> Spring 2024"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'a-css.css']
+    # self_contained: true
+    nature:
+      ratio: '8.5:11'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+layout: true
+class: clear
+---
+
+<br><br><br><br><br><br><br><br><br><br>
+
+.hi[.mono[INSTRUCTIONS]]: Carefully read all problems. 
+
+
+<br><br>
+
+Recall that group work is *strongly recommended.*
+
+<br><br><br>
+
+
+.right[.hi[Have fun!]]
+
+
+---
+class: clear
+
+
+
+## Problem 1
+
+<br>
+
+The following 5 statements are either .b[True] or .b[False]. If .b[False], provide a brief explanation why.
+
+<br>
+
+(a) An economy's *potential output* is the maximum quantity of goods and services it can produce, given its limitations.
+
+(b) One way of measuring *labor productivity* is by dividing an economy's GDP by its population.
+
+(c) The periods of *ups* and *downs* experienced by a national economy are known as economic growth periods.
+
+(d) *Recessions* are defined as the periods from a business cycle's trough to peak.
+
+(e) Workers' specialization is one factor responsible for increasing labor productivity.
+
+
+
+---
+class: clear
+
+
+
+## Problem 2
+
+<br>
+
+Go to the [`FRED website`](https://fred.stlouisfed.org/) and search for the following macro series:
+
+
+
+- `GDPC1` (real Gross Domestic Product);
+- `UNRATE` (unemployment rate);
+- `CPIAUCSL` (Consumer Price Index for all urban consumers: All items in U.S. city average).
+
+
+
+Then, compute the following (show your calculations):
+
+<br>
+
+(a) The growth rate of real output between 2019Q4 and 2020Q2;
+
+(b) The growth rate of inflation between June 2020 and August 2023;
+
+(c) The growth rate of unemployment between February 2020 and April 2020.
+
+
+---
+class: clear
+
+## Problem 3
+
+<br>
+
+Watch this [`TED talk`](https://www.youtube.com/watch?v=Rhcrbcg8HBw) by Oxford economist Kate Raworth. It provides a *different* view of economic growth as seen in class.
+
+Reflect on Raworth's words, and compare them with (*i*) the standard definitions of economic growth seen in class, as well as (*ii*) your own values concerning how you and society should thrive.
+
+
+---
+exclude:true
