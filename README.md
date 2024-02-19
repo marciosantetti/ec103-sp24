@@ -61,6 +61,12 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**004: Economic growth II**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/003-growth/004-growth-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/003-growth/004-growth-2.pdf)
+
+<br>
+
 ## Assignments
 
 ### Problem Sets
