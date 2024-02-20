@@ -74,6 +74,7 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 <br>
 
   - [`Problem Set 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/problem-sets/ps1/ps1-ec103-sp24.pdf)
+  - [`Problem Set 2`](https://raw.githack.com/marciosantetti/ec103-sp24/main/problem-sets/ps2/ps2-ec103-sp24.pdf)
 
 <br>
 
