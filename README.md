@@ -97,3 +97,5 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
   - [`Mini Project 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp1-sp24.pdf) (due 02/21, before class)
       - [`Project overview`](https://youtu.be/8qb5Q0VXXeI)
+   
+  - [`Mini Project 2`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp2-sp24.pdf) (due 04/03, before class)
