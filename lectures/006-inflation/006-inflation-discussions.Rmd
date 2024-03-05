@@ -1,0 +1,147 @@
+---
+title: ".b[Inflation & Unemployment -- Discussions]"
+subtitle: ".b[.green[EC 103--003]]"
+author: "Marcio Santetti"
+date: "Spring 2023"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+p_load(broom, latex2exp, ggplot2, ggthemes, ggforce, viridis, dplyr, magrittr, knitr, parallel, xaringanExtra, tidyverse, sjPlot, showtext, mathjaxr, ggforce, furrr, kableExtra, wooldridge, hrbrthemes, scales, ggeasy, patchwork)
+
+
+
+
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  warning = F,
+  message = F,
+  dpi=300
+)
+
+theme_set(theme_ipsum_rc())
+
+```
+
+
+
+# Motivation
+
+
+---
+
+# New round of discussions
+
+<br>
+
+For a new round of discussions, a different .hi[*country*] will be assigned to 5 groups:
+
+  - Chile;
+  
+  - Greece;
+  
+  - South Korea;
+  
+  - Egypt;
+  
+  - Haiti.
+  
+
+---
+
+# New round of discussions
+
+A `.csv` file with data for each country can be found on `theSpring`.
+
+  - Check out the `Data files` folder.
+
+--
+
+<br>
+
+Each data set has the *same* variables:
+
+.smaller[
+
+  - `period`: 1991&mdash;2021;
+  - `country`: name of the country;
+  - `inf_rate`: % change in the Consumer Price Index, measured by the  International Monetary Fund (IMF);
+  - `unemp_rate`: % of the labor force unemployed, measured by the International Labor Organization (ILO);
+]
+
+---
+
+# New round of discussions
+
+
+- Explore the data sets as you wish.
+
+--
+
+
+Each group .hi[must] do *at least* two things:
+
+
+  1. Give a general .hi-orange[overview] of the country's economy.
+  
+    - Main economic activities, GDP *per capita*, other economic/demographic information you see relevant;
+
+  2. Present the country's unemployment and inflation scenarios over time, giving specific .hi-orange[reasons] for their respective trends.
+
+--
+
+- You may analyze the total period, and then focus on specific *time windows*, depending on the context of each country.
+
+---
+
+# New round of discussions
+
+<br><br>
+
+- Logistics:
+
+  - 03/24 (next *Friday* lecture);    
+
+  - Time: 10&mdash;15 mins per group;
+  
+  - .b[No reading]! Have small notes with you;
+  
+  - Email me a brief presentation (slides/PDF) `until 03/23 5:00 PM`, so you can use the projector.<sup>*</sup>
+  
+  - This activity is the first problem in .b[Problem Set 2], and is worth .hi[20] points.
+  
+  
+.footnote[<sup>*</sup>If your group submits the presentation late, there will be point deductions.]
+  
+  
+---
+
+# New round of discussions
+
+<br><br>
+
+Helpful resources:
+
+  - [`CIA's The World Factbook`](https://www.cia.gov/the-world-factbook/);
+  
+  - [`Our World in Data`](https://ourworldindata.org/)
+  
+  - Consult the country's *Central Bank* pages.
+
+---
+exclude: true
