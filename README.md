@@ -20,7 +20,7 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 
 <br>
 
-- **02/28: Mini-test 1**
+- ~~**02/28: Mini-test 1**~~
 
 <br>
 
@@ -77,6 +77,12 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 **007: Unemployment II**
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/005-unemp/005-unemp-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/005-unemp/005-unemp-2.pdf)
+
+<br>
+
+**008: Inflation I**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-1.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-1.pdf)
 
 <br>
 
