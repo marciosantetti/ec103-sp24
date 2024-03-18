@@ -6,7 +6,59 @@ library(ggrepel)
 library(janitor)
 library(fpp3)
 
-#----
+
+
+
+#---------------------------------------------------------------------------------
+
+
+data <- read_csv("fredgraph.csv")
+
+
+data_ts <- data |> 
+  clean_names() |> 
+  rename(cpi = cpiaucsl_pc1) |> 
+  mutate(date = year(date),
+         cpi = as.double(cpi),
+         unrate = as.double(unrate)) |> 
+  filter(date <= 2023) |>
+  as_tsibble(index = date) 
+
+
+
+data_ts
+
+
+
+data_ts |> 
+  filter(date <= 1970)
+
+
+data_filter1 <- data_ts %>% filter(date <= 1970)
+
+data_filter2 <- data_ts %>% filter(date >= 1970 & date <= 2000)
+
+data_filter3 <- data_ts %>% filter(date >= 2000)
+
+
+##== Create a new column (CPI_CHANGE):
+
+
+data_filter2 <- data_filter2 %>% mutate(cpi_change = difference(cpi))
+
+
+
+
+
+
+
+
+
+
+
+
+
+#----------------------------------------------------------------------------------
 
 inf <- read_csv("inflation_data.csv") |> 
   clean_names() |> 

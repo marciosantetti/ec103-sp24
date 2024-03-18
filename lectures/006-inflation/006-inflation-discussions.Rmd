@@ -1,8 +1,8 @@
 ---
 title: ".b[Inflation & Unemployment -- Discussions]"
-subtitle: ".b[.green[EC 103--003]]"
-author: "Marcio Santetti"
-date: "Spring 2023"
+subtitle: ".b[.green[EC 103--004]]"
+author: "Prof. Santetti"
+date: "Spring 2024"
 output:
   xaringan::moon_reader:
     css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
@@ -51,45 +51,37 @@ theme_set(theme_ipsum_rc())
 
 For a new round of discussions, a different .hi[*country*] will be assigned to 5 groups:
 
-  - Chile;
+  - Colombia;
   
-  - Greece;
+  - Spain;
   
-  - South Korea;
+  - Japan;
   
-  - Egypt;
+  - Democratic Republic of Congo;
   
-  - Haiti.
+  - Australia.
   
 
 ---
 
 # New round of discussions
 
-A `.csv` file with data for each country can be found on `theSpring`.
+<br><br>
 
-  - Check out the `Data files` folder.
-
---
+Links from [`Our World in Data`](https://ourworldindata.org/):
 
 <br>
 
-Each data set has the *same* variables:
-
-.smaller[
-
-  - `period`: 1991&mdash;2021;
-  - `country`: name of the country;
-  - `inf_rate`: % change in the Consumer Price Index, measured by the  International Monetary Fund (IMF);
-  - `unemp_rate`: % of the labor force unemployed, measured by the International Labor Organization (ILO);
-]
+  - [`Unemployment rate map`](https://ourworldindata.org/grapher/unemployment-rate);
+  
+  - [`Inflation rate map`](https://ourworldindata.org/grapher/inflation-of-consumer-prices).
 
 ---
 
 # New round of discussions
 
 
-- Explore the data sets as you wish.
+- Explore the data as you wish.
 
 --
 
@@ -115,7 +107,7 @@ Each group .hi[must] do *at least* two things:
 
 - Logistics:
 
-  - 03/24 (next *Friday* lecture);    
+  - ?? (next *Wednesday* lecture);    
 
   - Time: 10&mdash;15 mins per group;
   
@@ -123,7 +115,7 @@ Each group .hi[must] do *at least* two things:
   
   - Email me a brief presentation (slides/PDF) `until 03/23 5:00 PM`, so you can use the projector.<sup>*</sup>
   
-  - This activity is the first problem in .b[Problem Set 2], and is worth .hi[20] points.
+  - This activity is the first problem in .b[Mini-test 3], and is worth .hi[20] points.
   
   
 .footnote[<sup>*</sup>If your group submits the presentation late, there will be point deductions.]
@@ -139,7 +131,7 @@ Helpful resources:
 
   - [`CIA's The World Factbook`](https://www.cia.gov/the-world-factbook/);
   
-  - [`Our World in Data`](https://ourworldindata.org/)
+  - [`Our World in Data`](https://ourworldindata.org/);
   
   - Consult the country's *Central Bank* pages.
 

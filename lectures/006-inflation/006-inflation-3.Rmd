@@ -1,8 +1,8 @@
 ---
 title: ".b[Inflation, pt. 3]"
-subtitle: ".b[.green[EC 103--003]]"
-author: "Marcio Santetti"
-date: "Spring 2023"
+subtitle: ".b[.green[EC 103--004]]"
+author: "Prof. Santetti"
+date: "Spring 2024"
 output:
   xaringan::moon_reader:
     css: ['default', 'metropolis', 'metropolis-fonts', 'skid-css.css']
@@ -188,6 +188,8 @@ Economic policies conducted by central banks fall under the category of .hi[mone
 --
 
 > .hi[Monetary policy] involves influencing the economy through changes in the banking system's *reserves*, thus affecting the *supply of money* and the availability of *credit.*
+
+--
 
   - The .hi[main] monetary policy tool is controlling .hi-orange[interest rates].
 

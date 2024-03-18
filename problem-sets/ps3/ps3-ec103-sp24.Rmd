@@ -1,0 +1,165 @@
+---
+title: ".hi[EC 103--004]"
+subtitle: ".b[Problem Set 3]"
+author: ".b[Prof. Santetti] <br> Spring 2024"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'a-css.css']
+    # self_contained: true
+    nature:
+      ratio: '8.5:11'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+layout: true
+class: clear
+---
+
+<br><br><br><br><br><br><br><br><br><br>
+
+.hi[.mono[INSTRUCTIONS]]: Carefully read all problems. 
+
+
+<br><br>
+
+Recall that group work is *strongly recommended.*
+
+<br><br><br>
+
+
+.right[.hi[Have fun!]]
+
+
+---
+class: clear
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(fpp3)
+library(janitor)
+library(gapminder)
+library(MetBrewer)
+library(hrbrthemes)
+library(patchwork)
+library(scales)
+
+theme_set(theme_ipsum())
+```
+
+
+## Problem 1
+
+<br>
+
+The following 10 statements are either .b[True] or .b[False]. If .b[False], provide a brief explanation why.
+
+<br>
+
+(a) The *Core CPI* excludes *food* and *shelter* prices, as they are usually the most *volatile* components of the *Consumer Price Index*.
+
+(b) The *Consumer Price Index* (CPI) is based on a fixed basket of goods and services that represents the purchases of the average household.
+
+(c) Inflation has two main *sources*: *demand-pull* and *cost-push*.
+
+(d) A sudden increase in consumer interest in certain goods and services may be a cause for cost-push inflation.
+
+(e) A sudden increase in wages and benefits may be a cause for cost-push inflation.
+
+(f) There is usually a *trade-off* between low unemployment and rises in inflation.
+
+(g) The more market power a firm has, the more it can charge for its goods and/or services.
+
+(h) The *Phillips curve* relates the unemployment rate and GDP growth.
+
+(i) *Okun's law* relates inflation and unemployment.
+
+
+---
+class: clear
+
+
+
+## Problem 2
+
+<br>
+
+In the graph below, the historical series for the U.S. unemployment rate (green, change from the previous year) and real GDP (purple, growth rate from the previous year) are plotted together. Based on your readings and what was exposed in class, what do you observe in this chart, regarding *how and economy grows and the state of its labor market*?
+
+```{r, echo=FALSE, dev = "svg", fig.height=5, warning = FALSE, message = FALSE}
+
+
+dat <- read_csv("fredgraph2.csv")
+
+
+dat <- dat %>% 
+  clean_names()
+
+dat <- dat %>% 
+  mutate(gdpc1_pc1 = as.double(gdpc1_pc1),
+         unrate_ch1 = as.double(unrate_ch1))
+
+
+dat %>% 
+  mutate(period = yearquarter(date)) %>% 
+  ggplot() +
+  geom_line(aes(x = period, y = gdpc1_pc1), size = 0.7, color = "#5e3c58") +
+  geom_hline(yintercept = 0, lty = 1, alpha = 0.6) +
+  geom_line(aes(x = period, y = unrate_ch1), size = 0.8, color = "#83adb5") +
+  scale_y_continuous(sec.axis = sec_axis(~ ., name = "Change in unemployment rate")) +
+  labs(x = "",
+       y = "Real GDP: annual growth rate (%)",
+       title = "U.S. Real GDP and unemployment rate",
+       subtitle = "% change from a year ago (1949Q1–2023Q2)")
+
+
+
+```
+
+---
+class: clear
+
+## Problem 3
+
+<br>
+
+[`This episode`](https://www.nytimes.com/2022/10/06/podcasts/the-daily/inflation-car-market-federal-reserve.html?) of `The Daily` podcast (NYT) was recorded a while ago, but is still important to understand the current inflationary scenario experienced by the U.S. economy. After carefully listening, answer the following questions:
+
+<br>
+
+(a) What is the main/mostly used policy tool used by the US Federal Reserve (FED) to control inflationary surges? 
+
+(b) What is the *mechanism* behind using the tool from part (a) to control rising prices? In other words, what are policy makers' expected results when applying this policy? 
+
+(c) In an inflationary scenario, is it simple/fast to reflect policy measures to actual consumers/businesses behavior?  Explain. 
+
+(d) How does the FED policy tool influence the used-car market, as discussed in the podcast? Explain. 
+
+(e) Relate the current inflationary scenario with (*i*) the ongoing FED policy, (*ii*) consumers' willingness to spend their money, and (*iii*) the used- and new-car markets. 
+
+
+
+---
+class: clear
+
+## Problem 4
+
+<br>
+
+Answer the following questions:
+
+<br>
+
+(a) Assume a country has a total civilian population of 1,000 people. In addition, 564 are currently working, and 36 are actively looking for jobs over the past month. What is the size of this country's labor force?
+
+(b) Using data from part (a), What is this country's unemployment rate?
+
+
+(c) Still using data from part (a), what is this country's labor force participation rate?
+
+
+(d) Lastly, what is this country's employment-to-population ratio?
+
+---
+exclude:true
