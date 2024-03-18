@@ -21,6 +21,7 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 <br>
 
 - ~~**02/28: Mini-test 1**~~
+- **04/03: Mini-test 2**
 
 <br>
 
