@@ -93,6 +93,14 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**010: Inflation III**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-3.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-3.pdf)
+  - Inflation discussions: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-discussions.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/006-inflation/006-inflation-discussions.pdf)
+
+
+<br>
+
 ## Assignments
 
 ### Problem Sets
