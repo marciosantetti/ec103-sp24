@@ -107,13 +107,13 @@ Each group .hi[must] do *at least* two things:
 
 - Logistics:
 
-  - ?? (next *Wednesday* lecture);    
+  - 03/27 (next *Wednesday* lecture);    
 
   - Time: 10&mdash;15 mins per group;
   
   - .b[No reading]! Have small notes with you;
   
-  - Email me a brief presentation (slides/PDF) `until 03/23 5:00 PM`, so you can use the projector.<sup>*</sup>
+  - Email me a brief presentation (slides/PDF) `until 03/26 5:00 PM`, so you can use the projector;<sup>*</sup>
   
   - This activity is the first problem in .b[Mini-test 3], and is worth .hi[20] points.
   
