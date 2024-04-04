@@ -21,7 +21,7 @@ Welcome to EC 103&mdash;004: Introduction to Macroeconomics!<br>
 <br>
 
 - ~~**02/28: Mini-test 1**~~
-- **04/03: Mini-test 2**
+- ~~**04/03: Mini-test 2**~~
 
 <br>
 
@@ -123,7 +123,9 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
-  - [`Mini Project 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp1-sp24.pdf) (due 02/21, before class)
-      - [`Project overview`](https://youtu.be/8qb5Q0VXXeI)
+  - ~~[`Mini Project 1`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp1-sp24.pdf) (due 02/21, before class)~~
+      - ~~[`Project overview`](https://youtu.be/8qb5Q0VXXeI)~~
    
-  - [`Mini Project 2`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp2-sp24.pdf) (due 04/03, before class)
+  - ~~[`Mini Project 2`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp2-sp24.pdf) (due 04/03, before class)~~
+
+  - [`Mini Project 3`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp3-ec103-sp24.pdf) (due 04/30, 11:59 PM)
