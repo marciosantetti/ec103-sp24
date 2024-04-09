@@ -107,6 +107,12 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**012: Aggregate expenditures II**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/007-agg-exp/007-agg-exp-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/007-agg-exp/007-agg-exp-2.pdf)
+
+<br>
+
 ## Assignments
 
 ### Problem Sets
