@@ -1,0 +1,131 @@
+---
+title: ".hi[EC 103--004]"
+subtitle: ".b[Problem Set 4]"
+author: ".b[Prof. Santetti] <br> Spring 2024"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'a-css.css']
+    # self_contained: true
+    nature:
+      ratio: '8.5:11'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+layout: true
+class: clear
+---
+
+<br><br><br><br><br><br><br><br><br><br>
+
+.hi[.mono[INSTRUCTIONS]]: Carefully read all problems. 
+
+
+<br><br>
+
+Recall that group work is *strongly recommended.*
+
+<br><br><br>
+
+
+.right[.hi[Have fun!]]
+
+
+---
+class: clear
+
+
+## Problem 1
+
+<br>
+
+
+The following 10 statements are either .b[True] or .b[False]. If .b[False], provide a brief explanation why.
+
+<br>
+
+
+(a) In an economy with government, the income that ultimately gets to households is known as *disposable* (after-tax) income.
+
+(b) In an economy with government, aggregate (private) investment still needs to be fully financed by aggregate (private) savings. 
+
+(c) Whenever changing the level of government expenditures and the supply of money, the government is engaging in *fiscal* policy. 
+
+(d)  The government expenditures multiplier produces the same effect as the spending multiplier in a closed economy without government.
+
+(e)  The tax multiplier is always greater than the government expenditures multiplier. 
+
+(f) In an economy with no change in aggregate investment, any new government expenditures fully financed by taxes on consumers will generate a growth in output proportional to the change in government spending. 
+
+(g)  The *Inflation Reduction Act* of 2022 is an example of macroeconomic *monetary* policy. 
+
+(h) COVID-19 era stimulus checks are an example of recent *fiscal* policy.
+
+(i) If an economy's marginal propensity to save (*MPS*) is 0.2, its government expenditures multiplier will be equal to 5. 
+
+(j) If government purchases and taxes are increased by $100 billion simultaneously, equilibrium output will also be increased by $100 billion.
+
+---
+class: clear
+
+## Problem 2
+
+<br>
+
+Suppose you are given the following information regarding country .mono[YYZ]:
+
+- Aggregate consumption: *C = 350 + 0.6Y*
+- Planned investment: *I = $ 150*
+- Aggregate expenditures definition: *AE &equiv; C + I*
+- In equilibrium, aggregate income (*Y*) must be equal to aggregate expenditures (*AE*).
+
+Answer the following questions. (If you **do not** show your calculations, you will be given **no credit**.)
+
+(a) What is .mono[YYZ]'s marginal propensity to consume? (*2 points*)
+
+(b) What is .mono[YYZ]'s marginal propensity to save? (*2 points*)
+
+(c) Show the expression (equation) for .mono[YYZ]'s aggregate expenditures function. (*2 points*)
+
+(d) What is the equilibrium level of income for .mono[YYZ]? (*2 points*)
+
+(e) Now, suppose that the level of planned investment increases to *I' = $ 200* in the following year. What is the new equilibrium level of income for .mono[YYZ]? (*2 points*)
+
+(f) Given your answers to  parts (d) and (e), what is the size of .mono[YYZ]'s multiplier? To get full credit, you must show its value in *two* different ways. (*2 points*)
+
+
+---
+class: clear
+
+
+## Problem 3
+
+<br>
+
+ Assume a closed economy with government, and you are given the following information:
+
+- Households consume 75% of their disposable income (*Y<sub>d</sub>*) on consumption, saving the rest;
+- The amount of aggregate consumption that *does not* depend on the current level of disposable income is $160;
+- Government expenditures: *G = $200*;
+- Net taxes on consumption: *T = $200*;
+- Planned Investment: *I = $300*;
+- Aggregate expenditures definition: *AE &equiv; C + I + G*;
+- In equilibrium, aggregate income (*Y*) must be equal to aggregate expenditures (*AE*).
+
+Answer the following questions. (If you **do not** show your calculations, you will be given **no credit**.)
+
+<br>
+
+(a) Using the above information, write the expression for this economy's aggregate expenditures (*AE*), as a function of income (*Y*). 
+
+(b) At what aggregate income level do aggregate expenditures exactly meet what is being currently produced in the economy?
+
+(c) Based on your answer to part (b), what is the level of aggregate savings (*S*) in this economy? 
+
+(d) From your previous answers, show that the amount of *leakages* is compensated by the amount of *injections* in this economy.
+
+(e) Suppose you are this economy's policymaker, and need to stimulate the economy. In other words, the prime minister has given you the task of increasing aggregate output by $500. Show **3 ways** in which this goal can be achieved with fiscal policies. To get full credit, you need to give brief explanations and prove your story mathematically. *Obs*: Just using ready-made formulas is not enough to get full credit.
+
+
+---
+exclude:true
