@@ -114,6 +114,12 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
 
 <br>
 
+**013: Government expenditures & fiscal policy**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/008-govt/008-govt.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec103-sp24/main/lectures/008-govt/008-govt.pdf)
+
+<br>
+
 ## Assignments
 
 ### Problem Sets
