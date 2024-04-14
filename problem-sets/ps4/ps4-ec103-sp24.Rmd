@@ -79,19 +79,21 @@ Suppose you are given the following information regarding country .mono[YYZ]:
 - Aggregate expenditures definition: *AE &equiv; C + I*
 - In equilibrium, aggregate income (*Y*) must be equal to aggregate expenditures (*AE*).
 
-Answer the following questions. (If you **do not** show your calculations, you will be given **no credit**.)
+Answer the following questions. 
 
-(a) What is .mono[YYZ]'s marginal propensity to consume? (*2 points*)
+<br>
 
-(b) What is .mono[YYZ]'s marginal propensity to save? (*2 points*)
+(a) What is .mono[YYZ]'s marginal propensity to consume? 
 
-(c) Show the expression (equation) for .mono[YYZ]'s aggregate expenditures function. (*2 points*)
+(b) What is .mono[YYZ]'s marginal propensity to save? 
 
-(d) What is the equilibrium level of income for .mono[YYZ]? (*2 points*)
+(c) Show the expression (equation) for .mono[YYZ]'s aggregate expenditures function. 
 
-(e) Now, suppose that the level of planned investment increases to *I' = $ 200* in the following year. What is the new equilibrium level of income for .mono[YYZ]? (*2 points*)
+(d) What is the equilibrium level of income for .mono[YYZ]? 
 
-(f) Given your answers to  parts (d) and (e), what is the size of .mono[YYZ]'s multiplier? To get full credit, you must show its value in *two* different ways. (*2 points*)
+(e) Now, suppose that the level of planned investment increases to *I' = $ 200* in the following year. What is the new equilibrium level of income for .mono[YYZ]? 
+
+(f) Given your answers to  parts (d) and (e), what is the size of .mono[YYZ]'s multiplier? To get full credit, you must show its value in *two* different ways. 
 
 
 ---
@@ -112,7 +114,7 @@ class: clear
 - Aggregate expenditures definition: *AE &equiv; C + I + G*;
 - In equilibrium, aggregate income (*Y*) must be equal to aggregate expenditures (*AE*).
 
-Answer the following questions. (If you **do not** show your calculations, you will be given **no credit**.)
+Answer the following questions. 
 
 <br>
 
