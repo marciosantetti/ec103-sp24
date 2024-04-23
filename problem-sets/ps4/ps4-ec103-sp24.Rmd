@@ -104,7 +104,7 @@ class: clear
 
 <br>
 
- Assume a closed economy with government, and you are given the following information:
+Assume a closed economy with government, and you are given the following information:
 
 - Households consume 75% of their disposable income (*Y<sub>d</sub>*) on consumption, saving the rest;
 - The amount of aggregate consumption that *does not* depend on the current level of disposable income is $160;
