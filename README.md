@@ -143,3 +143,4 @@ Several lecture notes have also benefited from [JW Mason](http://jwmason.org/)'s
   - ~~[`Mini Project 2`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp2-sp24.pdf) (due 04/03, before class)~~
 
   - [`Mini Project 3`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp3-ec103-sp24.pdf) (due 04/30, 11:59 PM)
+  - [`Mini Project 3 - Feedback Instructions`](https://raw.githack.com/marciosantetti/ec103-sp24/main/mini-projects/mp3-feedback-instructions.pdf) (due 05/08, 1:30 PM)
